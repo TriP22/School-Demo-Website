@@ -1,0 +1,20 @@
+.th-bg-img{
+    background-position: center;
+    background-size: cover;
+}
+.th-form-box{
+    border-radius: 40px;
+}
+.th-form-input{
+    background-color: #5D62B5;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.8;
+    color: #FFFFFF;
+}
+.th-form-input::selection{
+    background-color: #5D62B5;
+}
+.th-form-input::placeholder{
+    color: #FFFFFF;
+}

@@ -1,0 +1,210 @@
+/* general */
+body{
+    background: #F5F5F5;
+}
+.th-logo-1{
+    height: 65px;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.th-logo-2{
+    height: 45px;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.th-rob{
+    font-family: 'Roboto', sans-serif;
+}
+.th-12{
+    font-size: 12px;
+}
+.th-14{
+    font-size: 14px;
+}
+.th-16{
+    font-size: 16px;
+}
+.th-18{
+    font-size: 18px;
+}
+.th-20{
+    font-size: 20px;
+}
+.th-30{
+    font-size: 30px;
+}
+.th-36{
+    font-size: 36px;
+}
+.th-72{
+    font-size: 72px;
+}
+/* font weight */
+.th-thin{
+    font-weight: 100;
+}
+.th-light{
+    font-weight: 300;
+}
+.th-regular{
+    font-weight: 400;
+}
+.th-medium{
+    font-weight: 500;
+}
+.th-bold{
+    font-weight: 700;
+}
+/* font color */
+.th-black{
+    color: #4B4B4B;
+}
+.th-grey{
+    color: #959595;
+}
+.th-red{
+    color: #F2726F;
+}
+.th-white{
+    color: #FFFFFF;
+}
+/* Link */
+.th-link:hover {
+    text-decoration: none;
+    color: #F2726F;
+}
+/* BUTTON */
+.th-btn-action{
+    width: 280px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: linear-gradient(81.37deg, #DC4946 0.29%, #F2726F 49.91%, #FFC533 100%);
+    border-radius: 3px;
+    border: none;
+}
+.th-btn-primary{
+    width: 280px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #5D62B5;
+    border-radius: 3px;
+    border: none;
+}
+.th-btn-secondary-1{
+    width: 280px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #29C3BE;
+    border-radius: 3px;
+    border: none;
+}
+.th-btn-secondary-2{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #F2726F;
+    border-radius: 3px;
+    border: none;
+}
+.th-btn-secondary-3{
+    width: 280px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #FFC533;
+    border-radius: 3px;
+    border: none;
+}
+.th-btn-secondary-4{
+    width: 280px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #62B58F;
+    border-radius: 3px;
+    border: none;
+}
+/* BG Color */
+.th-bg-gradient{
+    background: linear-gradient(81.37deg, #DC4946 0.29%, #F2726F 49.91%, #FFC533 100%);
+}
+.th-bg-blue{
+    background: #5D62B5;
+}
+.th-bg-green-1{
+    background: #29C3BE;
+}
+.th-bg-red{
+    background: #F2726F;
+}
+.th-bg-yellow{
+    background: #FFC533;
+}
+.th-bg-green-2{
+    background: #62B58F;
+}
+/* BG Color Neutral */
+.th-bg-black{
+    background: #000000;
+}
+.th-bg-grey-4{
+    background: #4B4B4B;
+}
+.th-bg-grey-3{
+    background: #959595;
+}
+.th-bg-grey-2{
+    background: #D5D5D5;
+}
+.th-bg-grey-1{
+    background: #F5F5F5;
+}
+.th-bg-white{
+    background: #FFFFFF;
+}
+/* Shadows */
+.th-shadow-1{
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2), 0px 2px 4px rgba(38, 38, 38, 0.24);
+}
+.th-shadow-2{
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.2), 0px 4px 8px rgba(38, 38, 38, 0.24);
+}
+.th-shadow-3{
+    box-shadow: 0px 12px 24px rgba(38, 38, 38, 0.2), 0px 6px 12px rgba(38, 38, 38, 0.24);
+}
+.th-shadow-4{
+    box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2), 0px 8px 16px rgba(38, 38, 38, 0.24);
+}
+.th-shadow-5{
+    box-shadow: 0px 24px 28px rgba(38, 38, 38, 0.24), 0px 12px 24px rgba(38, 38, 38, 0.24);
+}
+.th-shadow-6{
+    box-shadow: 0px 32px 42px rgba(38, 38, 38, 0.24), 0px 18px 36px rgba(38, 38, 38, 0.24);
+}
+.th-shadow-11{
+    box-shadow: inset 0px 8px 16px rgba(38, 38, 38, 0.08), inset 0px 6px 12px rgba(38, 38, 38, 0.1), inset 0px 4px 8px rgba(38, 38, 38, 0.1), inset 0px 2px 4px rgba(38, 38, 38, 0.1);
+}
+.th-shadow-12{
+    box-shadow: inset 0px 12px 24px rgba(38, 38, 38, 0.08), inset 0px 8px 16px rgba(38, 38, 38, 0.14), inset 0px 6px 12px rgba(38, 38, 38, 0.14), inset 0px 2px 4px rgba(38, 38, 38, 0.14);
+}
+
+/* CARDS */
+.th-text-al-center{
+    text-align: center;
+}
+.th-card-1{
+    border-radius: 20px;
+}
