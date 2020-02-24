@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/ui.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
 
     <title>MY SCHOOL</title>
@@ -18,16 +20,16 @@
   <body>
 
     <!-- HEADER -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm">
       <div class="container p-0">
         <div class="row w-100 m-0">
-          <div class="col-md-4 col-xs-6 mb-0">
+          <div class="col-lg-3 col-sm-6 mb-0">
             <a class="navbar-brand w-100" href="#">
               <div class="th-logo-1 w-100" style="background-image: url(https://lh3.googleusercontent.com/proxy/RCwJ-e56CIn2vRqMDqIM8MoUz9jb8yfuk4epVbm1qNhXcLK_i27RhloaB__xABhgDanULJqiD_XN0eNDbZifkQOC-bjKhGzGtqAUwzfcN2xvjdh9);">
               </div>
             </a>
           </div>
-          <div class="col-md-8 col-xs-4 d-flex justify-content-end">
+          <div class="col-lg-9 col-sm-6 d-flex justify-content-end">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <div class="col-9 my-auto">
                 <ul class="navbar-nav">
@@ -56,10 +58,9 @@
                 </li>
               </ul>
               </div>
-              <div class="col-3 p-0 d-flex justify-content-end">
-                <a href="#"><img class="pl-4" src="img/search_24px.svg" alt=""></a>
-                <a href="#"><img class="pl-4" src="img/shopping_cart_24px.svg" alt=""></a>
-                <a href="#"><img class="pl-4" src="img/person_outline_24px.svg" alt=""></a>
+              <div class="col-3 p-0">
+                <span class="d-block th-rob th-12 th-grey d-flex justify-content-end">Call for Admissions:</span>
+                <span class="d-block th-rob th-16 th-bold th-red d-flex justify-content-end">1800-1800-2222</span>
               </div>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,42 +70,32 @@
         </div>
       </div>
     </nav>
-    <div style="height: 65px;"></div>
+    <div class="th-top-offset"></div>
     
     <!-- //HEADER -->
 
     <!-- BUTTON --> 
     <div class="container py-3">
     <h5>Button</h5>
-    
-    <!-- Action -->
+
+    <!-- Blue -->
     <div class="py-2">
-    <button class="th-btn-action">th-btn-action</button>
+      <button class="th-btn-blue px-5">th-btn-blue</button>
     </div>
 
-    <!-- Primary -->
+    <!-- Green-1 -->
     <div class="py-2">
-      <button class="th-btn-primary">th-btn-primary</button>
+      <button class="th-btn-green-1 px-5">th-btn-green-1</button>
     </div>
 
-    <!-- Secondary-1 -->
+    <!-- Red -->
     <div class="py-2">
-      <button class="th-btn-secondary-1">th-btn-secondary-1</button>
+      <button class="th-btn-red px-5">th-btn-red</button>
     </div>
 
-    <!-- Secondary-1 -->
+    <!-- Green-2 -->
     <div class="py-2">
-      <button class="th-btn-secondary-2">th-btn-secondary-2</button>
-    </div>
-
-    <!-- Secondary-1 -->
-    <div class="py-2">
-      <button class="th-btn-secondary-3">th-btn-secondary-3</button>
-    </div>
-
-    <!-- Secondary-1 -->
-    <div class="py-2">
-      <button class="th-btn-secondary-4">th-btn-secondary-4</button>
+      <button class="th-btn-green-2 px-5">th-btn-green-2</button>
     </div>
     </div>
     <!-- //BUTTON -->
@@ -113,10 +104,6 @@
     <div class="container py-3">
       <h5>BG Color</h5>
       <div class="row" style="color: white;">
-        <!-- th-bg-gradient -->
-        <div class="col-lg-2 col-sm-3 py-2">
-          <div class="th-bg-gradient p-4">th-bg-gradient</div>
-        </div>
         <!-- th-bg-blue -->
         <div class="col-lg-2 col-sm-3 py-2">
           <div class="th-bg-blue p-4">th-bg-blue</div>
@@ -128,10 +115,6 @@
         <!-- th-bg-red -->
         <div class="col-lg-2 col-sm-3 py-2">
           <div class="th-bg-red p-4">th-bg-red</div>
-        </div>
-        <!-- th-bg-yellow -->
-        <div class="col-lg-2 col-sm-3 py-2">
-          <div class="th-bg-yellow p-4">th-bg-yellow</div>
         </div>
         <!-- th-bg-green-2 -->
         <div class="col-lg-2 col-sm-3 py-2">
@@ -173,45 +156,6 @@
     </div>
     <!-- //BG COLOR NEUTRAL -->
 
-    <!-- SHADOWS --> 
-    <div class="container py-5">
-      <h5>Shadows</h5>
-      <div class="row">
-        <!-- shadow-1 -->
-        <div class="col-sm-6 py-5">
-          <div class="th-shadow-1 p-5">th-shadow-1</div>
-        </div>
-        <!-- shadow-2 -->
-        <div class="col-sm-6 py-5">
-          <div class="th-shadow-2 p-5">th-shadow-2</div>
-        </div>
-        <!-- shadow-3 -->
-        <div class="col-sm-6 py-5">
-          <div class="th-shadow-3 p-5">th-shadow-3</div>
-        </div>
-        <!-- shadow-4 -->
-        <div class="col-sm-6 py-5">
-          <div class="th-shadow-4 p-5">th-shadow-4</div>
-        </div>
-        <!-- shadow-5 -->
-        <div class="col-sm-6 py-5">
-          <div class="th-shadow-5 p-5">th-shadow-5</div>
-        </div>
-        <!-- shadow-6 -->
-        <div class="col-sm-6 py-5">
-          <div class="th-shadow-6 p-5">th-shadow-6</div>
-        </div>
-        <!-- shadow-11 -->
-        <div class="col-sm-6 py-5">
-          <div class="th-shadow-11 p-5">th-shadow-11</div>
-        </div>
-        <!-- shadow-12 -->
-        <div class="col-sm-6 py-5">
-          <div class="th-shadow-12 p-5">th-shadow-12</div>
-        </div>
-      </div>      
-    </div>
-    <!-- //SHADOWS -->
 
     <!-- CARD -->
     <div class="container my-3">
@@ -277,38 +221,38 @@
               One of the largest, most diverse universities in the India with over 8 students.
             </p>
             <div>
-              <a href="#"><img src="img/facebook 1.svg" alt=""></a>
-              <a href="#"><img src="img/twitter 1.svg" alt=""></a>
-              <a href="#"><img src="img/instagram.svg" alt=""></a>
-              <a href="#"><img src="img/youtube 1.svg" alt=""></a>
+              <a href="#" class="th-24 th-black th-link-red"><i class="lab la-facebook-f"></i></a>
+              <a href="#" class="th-24 th-black th-link-red"><i class="lab la-twitter"></i></a>
+              <a href="#" class="th-24 th-black th-link-red"><i class="lab la-instagram"></i></a>
+              <a href="#" class="th-24 th-black th-link-red"><i class="lab la-youtube"></i></a>
             </div>
           </div>
           <div class="col-md-5 py-3">
             <p class="th-rob th-14 th-bold th-black">EXPLORE LINKS</p>
             <div class="row">
               <div class="col-6 pb-2">
-                <a class="th-rob th-14 th-black th-link" href="#">About</a>
+                <a class="th-rob th-14 th-black th-link-red" href="#">About</a>
               </div>
               <div class="col-6 pb-2">
-                <a class="th-rob th-14 th-black th-link" href="#">Reviews</a>
+                <a class="th-rob th-14 th-black th-link-red" href="#">Courses</a>
               </div>
               <div class="col-6 pb-2">
-                <a class="th-rob th-14 th-black th-link" href="#">Services</a>
+                <a class="th-rob th-14 th-black th-link-red" href="#">News</a>
               </div>
               <div class="col-6 pb-2">
-                <a class="th-rob th-14 th-black th-link" href="#">Shop</a>
+                <a class="th-rob th-14 th-black th-link-red" href="#">Contact</a>
               </div>
               <div class="col-6 pb-2">
-                <a class="th-rob th-14 th-black th-link" href="#">Specials</a>
+                <a class="th-rob th-14 th-black th-link-red" href="#">Events</a>
               </div>
               <div class="col-6 pb-2">
-                <a class="th-rob th-14 th-black th-link" href="#">Careers</a>
+                <a class="th-rob th-14 th-black th-link-red" href="#">Careers</a>
               </div>
               <div class="col-6 pb-2">
-                <a class="th-rob th-14 th-black th-link" href="#">Estimates</a>
+                <a class="th-rob th-14 th-black th-link-red" href="#">Gallery</a>
               </div>
               <div class="col-6 pb-2">
-                <a class="th-rob th-14 th-black th-link" href="#">FAQs</a>
+                <a class="th-rob th-14 th-black th-link-red" href="#">Admission</a>
               </div>
             </div>
           </div>
@@ -316,7 +260,7 @@
             <p class="th-rob th-14 th-bold th-black">CONTACT</p>
             <div class="row">
               <div class="col-2">
-                <img src="img/place_24px.svg" alt="">
+                <i class="las la-map-marker"></i>
               </div>
               <div class="col-10 pl-1 my-auto">
                 <p class="th-rob th-14 th-black">321 Pikes Place Parkway Seattle, WA 54321</p>
@@ -324,7 +268,7 @@
             </div>
             <div class="row">
               <div class="col-2">
-                <img src="img/smartphone_24px.svg" alt="">
+                <i class="las la-mobile"></i>
               </div>
               <div class="col-10 pl-1">
                 <p class="th-rob th-14 th-black">(555) 765-4321</p>
@@ -332,18 +276,10 @@
             </div>
             <div class="row">
               <div class="col-2">
-                <img src="img/email_24px.svg" alt="">
+                <i class="lar la-envelope"></i>
               </div>
               <div class="col-10 pl-1">
-                <p class="th-rob th-14 th-black">Info@company.com</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-2">
-                <img src="img/timer_24px.svg" alt="">
-              </div>
-              <div class="col-10 pl-1">
-                <p class="th-rob th-14 th-black">Mon - Sat:  7:00 am - 6:00 pm</p>
+                <p class="th-rob th-14 th-black">Info@demo.com</p>
               </div>
             </div>
           </div>
@@ -353,7 +289,7 @@
     <div class="th-bg-blue">
       <div class="container">
         <div class="col-12 th-rob th-12 th-white py-3 text-right">
-          © 2020 | <a class="th-link th-bold th-white" href="#">petep.in</a>
+          © 2020 | <a class="th-link-red th-bold th-white" href="#">demo.com</a>
         </div>
       </div>
     </div>
