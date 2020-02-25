@@ -175,3 +175,16 @@ body{
 .th-card-1{
     border-radius: 20px;
 }
+
+/* FORM*/
+.th-form-style{
+    box-shadow: 1px 1px solid black;
+    width: 90% !important;
+    border-radius: 0px !important;
+    border-color: #5D62B5 !important;
+}
+.th-rectangle{
+    background-color: black;
+    width:180px;
+    height: 0.3vh;
+}
