@@ -3,7 +3,7 @@ body{
     background: rgb(255, 255, 255);
 }
 .th-top-offset{
-    height: 100px;
+    height: 80px;
 }
 .th-logo-1{
     height: 65px;
@@ -11,6 +11,10 @@ body{
     background-position-y: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  .th-logo-1{height: 45px;}
+  .th-top-offset{height: 60px;}
 }
 .th-logo-2{
     height: 45px;
@@ -178,9 +182,10 @@ body{
 
 /* FORM*/
 .th-form-style{
-    box-shadow: 1px 1px solid black;
-    width: 90% !important;
-    border-radius: 0px !important;
+    /*box-shadow: 1px 1px solid black;
+    width: 90% !important;*/
+    height:48px;
+    border-radius: 5px !important;
     border-color: #5D62B5 !important;
 }
 .th-rectangle{
@@ -204,3 +209,19 @@ body{
     height:12px;
     width:12px;
 }
+#slider-overhead-btn .slick-disabled
+{
+    display: inline-block;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px) {
+  #slider-overhead-btn .slick-disabled
+    {
+        display: none !important;
+    }
+}
+button:focus{outline: none}
+:focus{outline: none}
+
+.th-opacity{opacity: 0.5}

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <!-- Google Fonts -->
@@ -25,11 +27,16 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm">
       <div class="container p-0">
         <div class="row w-100 m-0">
-          <div class="col-lg-3 col-sm-6 mb-0">
-            <a class="navbar-brand w-100" href="#">
-              <div class="th-logo-1 w-100" style="background-image: url('https://lh3.googleusercontent.com/proxy/RCwJ-e56CIn2vRqMDqIM8MoUz9jb8yfuk4epVbm1qNhXcLK_i27RhloaB__xABhgDanULJqiD_XN0eNDbZifkQOC-bjKhGzGtqAUwzfcN2xvjdh9');">
+          <div class="col-lg-3 col-sm-6 col-xs-6 mb-0 px-0">
+            <div class="row w-100 px-0 mx-0">
+              <a class="navbar-brand col-8 px-0 mx-0 th-logo-1" href="#"style="background-image: url('https://trixno.com/wp-content/uploads/2019/03/trixno.png');">
+              </a>
+              <div class="col-4 px-0 d-flex justify-content-end">
+                <button type="button" id="sidebarCollapse" class="">
+                   <img id="menu" src="img/hamburger_copy.svg"   height="21px" width="21px">
+                </button>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-lg-9 col-sm-6 d-flex justify-content-end">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -65,811 +72,450 @@
                 <span class="d-block th-rob th-16 th-bold th-red d-flex justify-content-end">1800-1800-2222</span>
               </div>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
           </div>          
         </div>
       </div>
     </nav>
-    <div class="th-top-offset"></div>
-    
+    <div id="sidebar">
+            <div class="col-12 pt-3">
+              <a class="navbar-brand col-8 px-2 th-logo-2" href="#"style="background-image: url('https://trixno.com/wp-content/uploads/2019/03/trixno.png');">
+              </a>
+              <div id="sidebar-dismiss" class="col-4 py-4 mt-2 d-flex justify-content-end"><img src="img/close.svg" class="img-fluid" style="height: 20px"></div>
+            </div>
+            <ul class="list-unstyled components px-3 pb-5"> 
+                <li>
+                    <a href="#">Home <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <a href="#">About <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <a href="#">Acadmic <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <a href="#">Contact <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <a href="#">Gallery <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <a href="#">Events <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <a href="#">Gallery <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <a href="#">Events <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <a href="#">Gallery <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <a href="#">Events <i class="fa fa-angle-right mr-2 float-right"></i></a>
+                </li>
+                <li>
+                    <div class="th-sidebar-box text-center py-3">
+                        <span class="d-block th-lato th-16 th-bold th-black">Call for Admissions:</span>
+                        <span class="d-block th-rob th-24 th-bold th-blue">1800-1800-2222</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="py-2"></div>
+          </div>
+    </div>
     <!-- //HEADER -->
-    <div class="container-fluid">
-      <div class="row slider">
-        <div>
-          <div class="th-slider" style="background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2004&q=80');">
+
+    <div class="th-top-offset"></div>
+    <!-- Slider -->
+      <div class="container-fluid">
+        <div class="row slider">
+          <div>
+            <div class="th-slider" style="background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2004&q=80');">
+            </div>
           </div>
-        </div>
-        <div>
-          <div class="th-slider" style="background-image: url('https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');">
+          <div>
+            <div class="th-slider" style="background-image: url('https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');">
+            </div>
           </div>
-        </div>
-        <div>
-          <div class="th-slider" style="background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2004&q=80');">
+          <div>
+            <div class="th-slider" style="background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2004&q=80');">
+            </div>
           </div>
-        </div>
-    </div>
-
-
-
-    <!-- BUTTON --> 
-    <div class="container py-3">
-    <h5>Button</h5>
-
-    <!-- Blue -->
-    <div class="py-2">
-      <button class="th-btn-blue px-5">th-btn-blue</button>
-    </div>
-
-    <!-- Green-1 -->
-    <div class="py-2">
-      <button class="th-btn-green-1 px-5">th-btn-green-1</button>
-    </div>
-
-    <!-- Red -->
-    <div class="py-2">
-      <button class="th-btn-red px-5">th-btn-red</button>
-    </div>
-
-    <!-- Green-2 -->
-    <div class="py-2">
-      <button class="th-btn-green-2 px-5">th-btn-green-2</button>
-    </div>
-    </div>
-    <!-- //BUTTON -->
-
-    <!-- BG COLOR --> 
-    <div class="container py-3">
-      <h5>BG Color</h5>
-      <div class="row" style="color: white;">
-        <!-- th-bg-blue -->
-        <div class="col-lg-2 col-sm-3 py-2">
-          <div class="th-bg-blue p-4">th-bg-blue</div>
-        </div>
-        <!-- th-bg-green-1 -->
-        <div class="col-lg-2 col-sm-3 py-2">
-          <div class="th-bg-green-1 p-4">th-bg-green-1</div>
-        </div>
-        <!-- th-bg-red -->
-        <div class="col-lg-2 col-sm-3 py-2">
-          <div class="th-bg-red p-4">th-bg-red</div>
-        </div>
-        <!-- th-bg-green-2 -->
-        <div class="col-lg-2 col-sm-3 py-2">
-          <div class="th-bg-green-2 p-4">th-bg-green-2</div>
-        </div>
-      </div>      
-    </div>
-    <!-- //BG COLOR -->
-
-    <!-- BG COLOR NEUTRAL --> 
-    <div class="container py-3">
-      <h5>BG Color Neutral</h5>
-      <div class="row">
-        <!-- th-bg-black -->
-        <div class="col-lg-2 col-sm-3 py-2" style="color: white;">
-          <div class="th-bg-black p-4">th-bg-black</div>
-        </div>
-        <!-- th-bg-grey-4 -->
-        <div class="col-lg-2 col-sm-3 py-2" style="color: white;">
-          <div class="th-bg-grey-4 p-4">th-bg-grey-4</div>
-        </div>
-        <!-- th-bg-grey-3 -->
-        <div class="col-lg-2 col-sm-3 py-2" style="color: white;">
-          <div class="th-bg-grey-3 p-4">th-bg-grey-3</div>
-        </div>
-        <!-- th-bg-grey-2 -->
-        <div class="col-lg-2 col-sm-3 py-2" style="color: black;">
-          <div class="th-bg-grey-2 p-4">th-bg-grey-2</div>
-        </div>
-        <!-- th-bg-grey-1 -->
-        <div class="col-lg-2 col-sm-3 py-2" style="color: black;">
-          <div class="th-bg-grey-1 p-4">th-bg-grey-1</div>
-        </div>
-        <!-- th-bg-white -->
-        <div class="col-lg-2 col-sm-3 py-2" style="color: black;">
-          <div class="th-bg-white p-4">th-bg-white</div>
-        </div>
-      </div>      
-    </div>
-    <!-- //BG COLOR NEUTRAL -->
-
-
-    <!-- CARD -->
-    <div class="container my-3">
-      <div class="row">
-        <div class="col-4 mb-4">
-          <div class="th-card-1 p-5 th-bg-white">
-            <div class="col-12 d-flex justify-content-center"><img src="img/dog_boarding_24x.svg" alt=""></div>
-            <div class="th-rob th-18 th-bold th-red d-flex justify-content-center pt-5">Pet Boarding (No Cages)</div>
-            <div class="th-rob th-16 th-black pt-3 th-text-al-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
-          </div>
-        </div>
-        <div class="col-4 mb-4">
-          <div class="th-card-1 p-5 th-bg-white">
-            <div class="col-12 d-flex justify-content-center"><img src="img/dog_daycare_24x.svg" alt=""></div>
-            <div class="th-rob th-18 th-bold th-red d-flex justify-content-center pt-5">Pet Daycare</div>
-            <div class="th-rob th-16 th-black pt-3 th-text-al-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
-          </div>
-        </div>
-        <div class="col-4 mb-4">
-          <div class="th-card-1 p-5 th-bg-white">
-            <div class="col-12 d-flex justify-content-center"><img src="img/dog_grooming_24x.svg" alt=""></div>
-            <div class="th-rob th-18 th-bold th-red d-flex justify-content-center pt-5">Pet Day Spa & Grooming</div>
-            <div class="th-rob th-16 th-black pt-3 th-text-al-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
-          </div>
-        </div>
-        <div class="col-4 mb-4">
-          <div class="th-card-1 p-5 th-bg-white">
-            <div class="col-12 d-flex justify-content-center"><img src="img/dog_food_24x.svg" alt=""></div>
-            <div class="th-rob th-18 th-bold th-red d-flex justify-content-center pt-5">Custom Meal Plans</div>
-            <div class="th-rob th-16 th-black pt-3 th-text-al-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
-          </div>
-        </div>
-        <div class="col-4 mb-4">
-          <div class="th-card-1 p-5 th-bg-white">
-            <div class="col-12 d-flex justify-content-center"><img src="img/dog_training_24x.svg" alt=""></div>
-            <div class="th-rob th-18 th-bold th-red d-flex justify-content-center pt-5">Pet Training</div>
-            <div class="th-rob th-16 th-black pt-3 th-text-al-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
-          </div>
-        </div>
-        <div class="col-4 mb-4">
-          <div class="th-card-1 p-5 th-bg-white">
-            <div class="col-12 d-flex justify-content-center"><img src="img/dog_collar_24x.svg" alt=""></div>
-            <div class="th-rob th-18 th-bold th-red d-flex justify-content-center pt-5">Shop Our Store!</div>
-            <div class="th-rob th-16 th-black pt-3 th-text-al-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
-          </div>
-        </div>
-        
-        
       </div>
     </div>
-    <!-- //CARD -->
- 
-    <!-- FORM-->
-    <div class="container">
-      <div class="row justify-content-center">
-          <h3 class="text-lg-center">Application Form</h3>
+    <!-- Slider End -->
+    <!-- About us -->
+    <div class="container py-5">
+      <div class="row align-items-center justify-content-around">
+        <div class="col-md-5 col-xl-6 mb-4 mb-md-0">
+          <img src="https://leap.mediumra.re/assets/img/inner-2.jpg" class=" about-img ">
+        </div>
+        <div class="col-md-7 col-xl-6">
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <span class="badge badge-primary">Our Mission</span>
+              <div class="my-3">
+                <span class="h1">Change the game through design.</span>
+              </div>
+              <p class="lead">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+              <p class="lead mb-0">Cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <br>
-      <br>
-      <h6>
-          <i>Provide Your information</i>
-          <div class="th-rectangle"></div>
-      </h6>
-      <br>
-      <form class="col-lg-9">
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Applied Post</label>
-                      <input type="text" class="form-control th-form-style " id="post" placeholder="Applied Post" name="post">
+    </div>
+    <!-- about us end -->
+    <!--news-->
+        <div class="container shadow-sm bg-white rounded-lg pt-3 px-5 py-0">
+            <div class="row my-4">
+                <div class="col-8">
+                    <h3 class="th-lato th-28 th-bold th-blue">Latest News</h3>
+                    <h5 class="th-lato th-14 th-grey">Latest News </h5>
+                </div>
+                <div class="col-4 justify-content-end text-right" id="slider-overhead-btn">
+                    <button type="button" class="btn shadow-sm th-btn-slider prevp"><img src="img/back.svg"></button>
+                    <button type="button" class="btn shadow-sm th-btn-slider nextp"><img src="img/arrow.svg"></button>
+                </div>
+            </div>
+            <div class="row news-slider">
+                <div class="col-lg-6 col-12 py-2">
+                  <div class="th-news-card th-event-card-frame transition-3d-hover mb-5">
+                      <div class="th-event-card-body p-4">
+                         <div class="row  align-items-center  ">
+                              <div class="col-lg-7 col-12 pb-3">
+                                <h4 class="h5 th-blue">
+                                  What CFR really is about
+                                </h4>
+                                <p class="th-txt-truncate-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                                <button class="th-btn-blue px-5">Know more</button>
+                              </div>
+                              <div class="col-lg-5 col-12" >
+                               <div class="hero-image" style="background-image: url(https://htmlstream.com/preview/front-v2.9.4/assets/img/500x280/img13.jpg);"></div>
+                              </div>
+                          </div>
+                      </div>
                   </div>
               </div>
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="sub">Subject</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Interested Subjects" name="sub">
+                <div class="col-lg-6 col-12 py-2">
+                  <div class="th-news-card th-event-card-frame transition-3d-hover mb-5">
+                      <div class="th-event-card-body p-4">
+                         <div class="row  align-items-center  ">
+                              <div class="col-lg-7 col-12 pb-3">
+                                <h4 class="h5 th-blue">
+                                  What CFR really is about
+                                </h4>
+                                <p class="th-txt-truncate-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                                <button class="th-btn-blue px-5">Know more</button>
+                              </div>
+                              <div class="col-lg-5 col-12" >
+                               <div class="hero-image" style="background-image: url(https://htmlstream.com/preview/front-v2.9.4/assets/img/500x280/img13.jpg);"></div>
+                              </div>
+                          </div>
+                      </div>
                   </div>
               </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label class="text-sm-left">Teaching for Classes Upto:</label>
-                      <select class="form-control th-form-style" id="exampleFormControlSelect1">
-                          <option class="text-muted" value="" disabled selected >--Select Class--</option>
-                          <option value="Nursery">Nursery</option>
-                          <option value="Dharamshala">LKG</option>
-                          <option value="1">Class l</option>
-                          <option value="2">Class ll</option>
-                          <option  value="3">Class lll</option>
-                          <option value="4">Class lV</option>
-                          <option value="5">Class V</option>
-                          <option value="6">Class Vl</option>
-                          <option value="7">Class Vll</option>
-                          <option value="8">Class Vlll</option>
-                          <option value="9">Class lX</option>
-                          <option value="10">Class X</option>
-                          <option value="11">Class Xl</option>
-                          <option value="12">Class Xll</option>
-                        </select>
+                <div class="col-lg-6 col-12 py-2">
+                  <div class="th-news-card th-event-card-frame transition-3d-hover mb-5">
+                      <div class="th-event-card-body p-4">
+                         <div class="row  align-items-center  ">
+                              <div class="col-lg-7 col-12 pb-3">
+                                <h4 class="h5 th-blue">
+                                  What CFR really is about
+                                </h4>
+                                <p class="th-txt-truncate-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                                <button class="th-btn-blue px-5">Know more</button>
+                              </div>
+                              <div class="col-lg-5 col-12" >
+                               <div class="hero-image" style="background-image: url(https://htmlstream.com/preview/front-v2.9.4/assets/img/500x280/img13.jpg);"></div>
+                              </div>
+                          </div>
+                      </div>
                   </div>
               </div>
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="fname">First Name</label>
-                      <input type="text" class="form-control th-form-style" id="fname" placeholder="First Name" name="fname">
+                <div class="col-lg-6 col-12 py-2">
+                  <div class="th-news-card th-event-card-frame transition-3d-hover mb-5">
+                      <div class="th-event-card-body p-4">
+                         <div class="row  align-items-center  ">
+                              <div class="col-lg-7 col-12 pb-3">
+                                <h4 class="h5 th-blue">
+                                  What CFR really is about
+                                </h4>
+                                <p class="th-txt-truncate-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                                <button class="th-btn-blue px-5">Know more</button>
+                              </div>
+                              <div class="col-lg-5 col-12" >
+                               <div class="hero-image" style="background-image: url(https://htmlstream.com/preview/front-v2.9.4/assets/img/500x280/img13.jpg);"></div>
+                              </div>
+                          </div>
+                      </div>
                   </div>
               </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="post">Last Name</label>
-                      <input type="text" class="form-control th-form-style" id="lname" placeholder="Last Name" name="lname">
+                <div class="col-lg-6 col-12 py-2">
+                  <div class="th-news-card th-event-card-frame transition-3d-hover mb-5">
+                      <div class="th-event-card-body p-4">
+                         <div class="row  align-items-center  ">
+                              <div class="col-lg-7 col-12 pb-3">
+                                <h4 class="h5 th-blue">
+                                  What CFR really is about
+                                </h4>
+                                <p class="th-txt-truncate-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
+                                <button class="th-btn-blue px-5">Know more</button>
+                              </div>
+                              <div class="col-lg-5 col-12" >
+                               <div class="hero-image" style="background-image: url(https://htmlstream.com/preview/front-v2.9.4/assets/img/500x280/img13.jpg);"></div>
+                              </div>
+                          </div>
+                      </div>
                   </div>
               </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Residential Address</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Residential Address" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Permanent Address</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Permanent Address" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Father/Husband Name</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Father/Husband Name" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Family Income</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Family Income" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Subject</label>
-                      <select class="form-control th-form-style" id="exampleFormControlSelect1">
-                          <option class="text-muted" value="" disabled selected >--Select Gender--</option>
-                          <option value="Male">Male</option>
-                          <option value="Female">Female</option>
-                          <option value="Others">Others</option>
-                        </select>
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Date Of Birth</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="EX: DD/MM/YYYY" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="sub">Medium</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Medium" name="sub">
-                      
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Blood Group</label>
-                      <select class="form-control th-form-style" id="exampleFormControlSelect1">
-                          <option class="text-muted" value="" disabled selected >--Blood Group--</option>
-                          <option value="A">A</option>
-                          <option value="B">B</option>
-                          <option value="AB">AB</option>
-                          <option value="O">O</option>
-                        </select>
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Nationality</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Nationality" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="post">Mother Toungue</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Mother Toungue" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Religion</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Religion" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Caste</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Caste" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Contact No 1</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Contact" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Contact No 2</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Contact 2" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Aaddhar Card No</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Aaddhar Card" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Email Id</label>
-                      <input type="email" class="form-control th-form-style" id="post" placeholder="Email" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Previous School Name</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Previous School Name" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Address</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Address" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Teaching Experience</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Teaching Experience" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Interested Teaching Subject</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Interested Teaching Subject" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Languages Known</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Languages Known" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Medium of Teaching</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Medium of Teachingt" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Prev Profession</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Prev Profession" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Qualification</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Qualification" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Upload Photo</label>
-                      <input type="file" class="th-form-style th-form-style" id="img" name="img" accept="image/*">
-                  </div>
-              </div>
-          </div>
-      </form>
-      <div class=" d-flex justify-content-center">
-          <button type="submit" class="th-btn-blue px-5">Submit</button> 
-      </div>
+            </div>
+        </div>
+        <!-- //news end-->
+        <!-- //Event end-->
+  <div class="container pt-5">
+    <div class="row">
+        <div class="col-12 text-center pb-5">
+            <h3 class="th-28 th-blue">Events</h3>
+            <h5 class="th-14 th-grey">Lorem Ipsum Text will be here</h5>
+        </div>
+        <div class="col-lg-6 col-12">
+            <div class="th-event-card th-event-card-frame transition-3d-hover mb-5">
+                <div class="th-event-card-body p-4">
+                    <!-- Details -->
+                    <div class="th-event-media d-block d-sm-flex">
+                        <div>
+                            <!-- Header -->
+                            <div>
+                                <div class="h5 mb-1">
+                                    Senior Java Developer
+                                </div>
+                                <div class="d-flex align-items-center ">
+                                    <div><i class="las la-calendar th-36"></i></div>
+                                    <div>Mar 29, 2020</div>
+                                </div>
+                            </div>
+                            <!-- End Header -->
+
+                            <div class="mb-5">
+                                <p class="th-txt-truncate-2">The role is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.</p>
+                            </div>
+
+                            <div class="d-md-flex align-items-md-center">
+                                <!-- Location -->
+                                <div class="th-event-u-ver-divider u-ver-divider--none-md pr-4 mb-3 mb-md-0 mr-4">
+                                    <h2 class="small text-secondary mb-0">Location</h2>
+                                    <small class="fas fa-map-marker-alt text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">Liverpool, UK</span>
+                                </div>
+                                <!-- End Location -->
+
+                                <!-- Posted -->
+                                <div class="th-event-u-ver-divider th-event-u-ver-divider--none-md pr-4 mb-3 mb-md-0 mr-4">
+                                    <h3 class="small text-secondary mb-0">Posted</h3>
+                                    <small class="fas fa-calendar-alt text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">1 day ago</span>
+                                </div>
+                                <!-- End Posted -->
+
+                                <!-- Posted -->
+                                <div class="mb-3 mb-md-0">
+                                    <h4 class="small text-secondary mb-0">Salary</h4>
+                                    <small class="fas fa-dollar-sign text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">35k - 45k</span>
+                                </div>
+                                <!-- End Posted -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Details -->
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 col-12">
+            <div class="th-event-card th-event-card-frame transition-3d-hover mb-5">
+                <div class="th-event-card-body p-4">
+                    <!-- Details -->
+                    <div class="th-event-media d-block d-sm-flex">
+                        <div>
+                            <!-- Header -->
+                            <div>
+                                <div class="h5 mb-1">
+                                    Senior Java Developer
+                                </div>
+                                <div class="d-flex align-items-center ">
+                                    <div><i class="las la-calendar th-36"></i></div>
+                                    <div>Mar 29, 2020</div>
+                                </div>
+                            </div>
+                            <!-- End Header -->
+
+                            <div class="mb-5">
+                                <p class="th-txt-truncate-2">The role is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.</p>
+                            </div>
+
+                            <div class="d-md-flex align-items-md-center">
+                                <!-- Location -->
+                                <div class="th-event-u-ver-divider u-ver-divider--none-md pr-4 mb-3 mb-md-0 mr-4">
+                                    <h2 class="small text-secondary mb-0">Location</h2>
+                                    <small class="fas fa-map-marker-alt text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">Liverpool, UK</span>
+                                </div>
+                                <!-- End Location -->
+
+                                <!-- Posted -->
+                                <div class="th-event-u-ver-divider th-event-u-ver-divider--none-md pr-4 mb-3 mb-md-0 mr-4">
+                                    <h3 class="small text-secondary mb-0">Posted</h3>
+                                    <small class="fas fa-calendar-alt text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">1 day ago</span>
+                                </div>
+                                <!-- End Posted -->
+
+                                <!-- Posted -->
+                                <div class="mb-3 mb-md-0">
+                                    <h4 class="small text-secondary mb-0">Salary</h4>
+                                    <small class="fas fa-dollar-sign text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">35k - 45k</span>
+                                </div>
+                                <!-- End Posted -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Details -->
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6 col-12">
+            <div class="th-event-card th-event-card-frame transition-3d-hover mb-5">
+                <div class="th-event-card-body p-4">
+                    <!-- Details -->
+                    <div class="th-event-media d-block d-sm-flex">
+                        <div>
+                            <!-- Header -->
+                            <div>
+                                <div class="h5 mb-1">
+                                    Senior Java Developer
+                                </div>
+                                <div class="d-flex align-items-center ">
+                                    <div><i class="las la-calendar th-36"></i></div>
+                                    <div>Mar 29, 2020</div>
+                                </div>
+                            </div>
+                            <!-- End Header -->
+
+                            <div class="mb-5">
+                                <p class="th-txt-truncate-2">The role is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.</p>
+                            </div>
+
+                            <div class="d-md-flex align-items-md-center">
+                                <!-- Location -->
+                                <div class="th-event-u-ver-divider u-ver-divider--none-md pr-4 mb-3 mb-md-0 mr-4">
+                                    <h2 class="small text-secondary mb-0">Location</h2>
+                                    <small class="fas fa-map-marker-alt text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">Liverpool, UK</span>
+                                </div>
+                                <!-- End Location -->
+
+                                <!-- Posted -->
+                                <div class="th-event-u-ver-divider th-event-u-ver-divider--none-md pr-4 mb-3 mb-md-0 mr-4">
+                                    <h3 class="small text-secondary mb-0">Posted</h3>
+                                    <small class="fas fa-calendar-alt text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">1 day ago</span>
+                                </div>
+                                <!-- End Posted -->
+
+                                <!-- Posted -->
+                                <div class="mb-3 mb-md-0">
+                                    <h4 class="small text-secondary mb-0">Salary</h4>
+                                    <small class="fas fa-dollar-sign text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">35k - 45k</span>
+                                </div>
+                                <!-- End Posted -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Details -->
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 col-12">
+            <div class="th-event-card th-event-card-frame transition-3d-hover mb-5">
+                <div class="th-event-card-body p-4">
+                    <!-- Details -->
+                    <div class="th-event-media d-block d-sm-flex">
+                        <div>
+                            <!-- Header -->
+                            <div>
+                                <div class="h5 mb-1">
+                                    Senior Java Developer
+                                </div>
+                                <div class="d-flex align-items-center ">
+                                    <div><i class="las la-calendar th-36"></i></div>
+                                    <div>Mar 29, 2020</div>
+                                </div>
+                            </div>
+                            <!-- End Header -->
+
+                            <div class="mb-5">
+                                <p class="th-txt-truncate-2">The role is responsible for designing, coding and modifying websites, from layout to function and according t</p>
+                            </div>
+
+                            <div class="d-md-flex align-items-md-center">
+                                <!-- Location -->
+                                <div class="th-event-u-ver-divider u-ver-divider--none-md pr-4 mb-3 mb-md-0 mr-4">
+                                    <h2 class="small text-secondary mb-0">Location</h2>
+                                    <small class="fas fa-map-marker-alt text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">Liverpool, UK</span>
+                                </div>
+                                <!-- End Location -->
+
+                                <!-- Posted -->
+                                <div class="th-event-u-ver-divider th-event-u-ver-divider--none-md pr-4 mb-3 mb-md-0 mr-4">
+                                    <h3 class="small text-secondary mb-0">Posted</h3>
+                                    <small class="fas fa-calendar-alt text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">1 day ago</span>
+                                </div>
+                                <!-- End Posted -->
+
+                                <!-- Posted -->
+                                <div class="mb-3 mb-md-0">
+                                    <h4 class="small text-secondary mb-0">Salary</h4>
+                                    <small class="fas fa-dollar-sign text-secondary align-middle mr-1"></small>
+                                    <span class="align-middle">35k - 45k</span>
+                                </div>
+                                <!-- End Posted -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Details -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+      <!-- ---------------------- -->
+  <div class="container-fluid">
+    <div class="row py-1 th-bg-blue th-opacity"></div>
+    <div class="row">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.904471284096!2d85.1187970147993!3d25.608090421191967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed583dcb8fdcc1%3A0x7d8b8723cdf39b3a!2sBihar%20Museum!5e0!3m2!1sen!2sin!4v1582757727876!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <div class="row py-1 th-bg-blue th-opacity"></div>
   </div>
-    <!-- //FORM-->
-    
-    <!-- FORM 2 -->
-    <div class="container">
-      <div class="row justify-content-center">
-          <h3 class="text-lg-center">Contact Form</h3>
-      </div>
-      <br>
-      <form class="col-lg-9">
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Name</label>
-                      <input type="text" class="form-control th-form-style " id="post" placeholder="Name" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="sub">Occupation</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Occupation" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="post">Contact No</label>
-                      <input type="text" class="form-control th-form-style" id="lname" placeholder="Contact No" name="lname">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Email</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Email" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Enquiry For</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Enquiry For" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Address</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Address" name="sub">
-                  </div>
-              </div>
-          </div>
-      </form>
-      <div class=" d-flex justify-content-center">
-          <button type="submit" class="th-btn-blue px-5">Send Messege</button> 
-      </div>
-  </div>
-    <!-- //FORM 2 -->
-
-    <!-- FORM 3 -->
-    <div class="container">
-      <div class="row justify-content-center">
-          <h3 class="text-lg-center">Admission Form</h3>
-      </div>
-      <br>
-      <br>
-      <h6>
-          <i>Student Profile Details:</i>
-          <div class="th-rectangle"></div>
-      </h6>
-      <br>
-      <form class="col-lg-9">
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">First Name</label>
-                      <input type="text" class="form-control th-form-style " id="post" placeholder="First Name" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="sub">Last Name</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Last Name" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="post">Middle Name</label>
-                      <input type="text" class="form-control th-form-style" id="lname" placeholder="Middle Name" name="lname">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Date Of Birth </label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="EX: DD/MM/YYYY" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Gender</label>
-                      <select class="form-control th-form-style" id="exampleFormControlSelect1">
-                          <option class="text-muted" value="" disabled selected >--Select Gender--</option>
-                          <option value="Male">Male</option>
-                          <option value="Female">Female</option>
-                          <option value="Others">Others</option>
-                        </select>
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Blood Group</label>
-                      <select class="form-control th-form-style" id="exampleFormControlSelect1">
-                          <option class="text-muted" value="" disabled selected >--Blood Group--</option>
-                          <option value="A">A</option>
-                          <option value="B">B</option>
-                          <option value="AB">AB</option>
-                          <option value="O">O</option>
-                        </select>
-                  </div>
-              </div>
-          </div>
-          <br>
-          <h6>
-              <i>Student Parent Details:</i>
-              <div class="th-rectangle"></div>
-          </h6>
-          <br>
-              
-
-
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Father's Name</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Father Name" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Father's Qualification</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Father Qualification" name="post">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Father's Occupation</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Father Occupation" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="sub">Address</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Address" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Mother's Name</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Mother Name" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Mother's Qualification</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Mother Qualification" name="post">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Mother's Occupation</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Mother Occupation" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="sub">Address</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Address" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Family Income</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Family Income" name="sub">
-                  </div>
-              </div>
-          </div>
-          <br>
-          <h6>
-              <i>Student Contact Details:</i>
-              <div class="th-rectangle"></div>
-          </h6>
-          <br>
-
-
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group">
-                      <label for="post">Contact No 1</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Contact" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Contact No 2</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Contact 2" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Email Id</label>
-                      <input type="email" class="form-control th-form-style" id="post" placeholder="Email" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Residential Address</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Residential Address" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Permanent Address</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Permanent Address" name="post">
-                  </div>
-              </div>
-          </div>
-
-          <br>
-          <h6>
-              <i>Student Other Details:</i>
-              <div class="th-rectangle"></div>
-          </h6>
-          <br>
-
-
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Nationality</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Nationality" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Mother Toungue</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Mother Toungue" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Religion</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Religion" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Caste</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Caste" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Aadhar Card No</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Aadhar Card" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Upload Student Photo</label>
-                      <input type="file" class="th-form-style th-form-style" id="img" name="img" accept="image/*">
-                  </div>
-              </div>
-          </div>
-
-          <br>
-          <h6>
-              <i>Student Admission Details:</i>
-              <div class="th-rectangle"></div>
-          </h6>
-          <br>
-
-
-          <div class="row">
-              <div class="col-lg-6">
-                  <label class="text-sm-left">Class to which admission is sought:</label>
-                      <select class="form-control th-form-style" id="exampleFormControlSelect1">
-                          <option class="text-muted" value="" disabled selected >--Select Class--</option>
-                          <option value="Nursery">Nursery</option>
-                          <option value="Dharamshala">LKG</option>
-                          <option value="1">UKG</option>
-                          <option value="1">Class l</option>
-                          <option value="2">Class ll</option>
-                          <option  value="3">Class lll</option>
-                          <option value="4">Class lV</option>
-                          <option value="5">Class V</option>
-                          <option value="6">Class Vl</option>
-                          <option value="7">Class Vll</option>
-                          <option value="8">Class Vlll</option>
-                          <option value="9">Class lX</option>
-                          <option value="10">Class X</option>
-                          <option value="11">Class Xl</option>
-                          <option value="12">Class Xll</option>
-                      </select>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Medium</label>
-                      <input type="text" class="form-control th-form-style" id="sub" placeholder="Medium" name="sub">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">School last attended</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Previous School Name" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <label class="text-sm-left">Class to which admission is sought:</label>
-                      <select class="form-control th-form-style" id="exampleFormControlSelect1">
-                          <option class="text-muted" value="" disabled selected >--Select Class--</option>
-                          <option value="Nursery">Nursery</option>
-                          <option value="Dharamshala">LKG</option>
-                          <option value="1">UKG</option>
-                          <option value="1">Class l</option>
-                          <option value="2">Class ll</option>
-                          <option  value="3">Class lll</option>
-                          <option value="4">Class lV</option>
-                          <option value="5">Class V</option>
-                          <option value="6">Class Vl</option>
-                          <option value="7">Class Vll</option>
-                          <option value="8">Class Vlll</option>
-                          <option value="9">Class lX</option>
-                          <option value="10">Class X</option>
-                          <option value="11">Class Xl</option>
-                          <option value="12">Class Xll</option>
-                      </select>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="post">Address</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Address" name="post">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="form-group ">
-                      <label for="sub">Previous Class Average Grade</label>
-                      <input type="text" class="form-control th-form-style" id="post" placeholder="Previous Class Average Grade" name="post">
-                  </div>
-              </div>
-          </div>
-      </form>
-      <div class=" d-flex justify-content-center">
-          <button type="submit" class="th-btn-blue px-5">Submit Admission Form</button> 
-      </div>
-  </div>
-
-    <!-- //FORM 3 -->
     <!-- FOOTER -->
     <div class="th-bg-grey-1">
       <div class="container py-5">
         <div class="row">
           <div class="col-md-4 py-3">
             <div class="col-12 pl-0">
-              <div class="th-logo-2 w-100" style="background-image: url(https://lh3.googleusercontent.com/proxy/RCwJ-e56CIn2vRqMDqIM8MoUz9jb8yfuk4epVbm1qNhXcLK_i27RhloaB__xABhgDanULJqiD_XN0eNDbZifkQOC-bjKhGzGtqAUwzfcN2xvjdh9);">
+              <div class="th-logo-2 w-100" style="background-image: url('https://trixno.com/wp-content/uploads/2019/03/trixno.png');">
               </div>
             </div>
             <p class="th-rob th-14 th-black py-4 pr-5 m-0">
@@ -958,6 +604,27 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="js/slick.min.js"></script>
+    <script>
+         $('#sidebar-dismiss').on('click', function () {
+
+              const body = document.body;
+              const scrollY = body.style.top;
+              body.style.position = '';
+              body.style.top = '';
+              window.scrollTo(0, parseInt(scrollY || '0') * -1);
+              $('#sidebar').removeClass('active');
+          });
+          $('#sidebarCollapse').on('click', function () {
+              $('#sidebar').addClass('active');
+              const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
+              const body = document.body;
+              body.style.position = 'fixed';
+              body.style.top = `-${scrollY}`;
+          });
+          window.addEventListener('scroll', () => {
+            document.documentElement.style.setProperty('--scroll-y', `${window.scrollY}px`);
+          });
+       </script>
     <script type="text/javascript">
       jQuery(document).ready(function($)
     {
@@ -973,6 +640,34 @@
       swipe:false,
       nextArrow:'<button type="button" class="btn slick-next shadow-sm th-btn-slider"><img src="img/arrow.svg"></button>',
       prevArrow:'<button type="button" class="btn slick-prev shadow-sm th-btn-slider"><img src="img/back.svg"></button>',
+    });  
+  });
+    </script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($)
+    {
+      $(".news-slider").slick({
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      autoplay: false,
+      dots:true,
+      speed:300,
+      arrows:true,
+      swipeToSlide:false,
+      infinite: false,
+      swipe:false,
+      nextArrow:$(".nextp"),
+      prevArrow:$(".prevp"), 
+      responsive: [
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+        ]
     });  
   });
     </script>
