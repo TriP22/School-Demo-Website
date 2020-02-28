@@ -1,0 +1,156 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    overflow-x: hidden ;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    padding-top: 1%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+
+    padding: 1;
+    width: 90%;
+    max-width: 1200px;
+    /* max-height: 80vh; */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 1%;
+    z-index: 10;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+
+  }
+  .close:hover,
+  .close:focus {
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+    
+     /* height: 50%; */
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    text-align: center;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    background: #fff;
+    border-radius: 50%;
+    padding:0px;
+    height: 50px;
+    width: 50px;
+    box-shadow: -3px 0px 10px 1px black;
+  }
+  .prev{
+    background: #fff;
+    border-radius: 50%;
+    padding:0px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 3px 0px 10px 1px black;
+  }
+.prev:hover,
+.next:hover {
+    color:white;
+  
+}
+  img {
+    /* margin-bottom: -4px; */
+  }
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.maar{
+    margin-top: 3%;
+    
+}
+
+  .th-bg-grey-1{
+    background: #F5F5F5;
+}
+.th-bg-blue{
+    background: #5D62B5;
+}
+.th-bold{
+    font-weight: 700;
+}
+.th-black{
+    color: #4B4B4B;
+}
+.th-rob{
+    font-family: 'Roboto', sans-serif;
+}
+.th-14{
+    font-size: 14px;
+}
+.th-red{
+    color: #F2726F;
+}
+.th-logo-1{
+    height: 65px;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    .th-logo-1{height: 45px;}
+    .th-top-offset{height: 60px;}
+  }
